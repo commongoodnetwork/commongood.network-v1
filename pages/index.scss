@@ -1,0 +1,108 @@
+@import "../scss/import";
+
+.home section {
+  margin-bottom: 2rem;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -1rem;
+  @include media-breakpoint-only(sm) {
+    flex-wrap: wrap;
+  }
+  @include media-breakpoint-only(xs) {
+    flex-direction: column;
+  }
+}
+
+.team-member {
+  max-width: calc(33.3333% - 2rem);
+  margin: 0 1rem;
+  @include media-breakpoint-only(sm) {
+    max-width: calc(50% - 2rem);
+  }
+  @include media-breakpoint-only(xs) {
+    max-width: 100%;
+    border-bottom: 1px solid #eee;
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+  img {
+    margin-bottom: 1rem;
+  }
+  .socialIcons {
+    margin: -2px -2px 1rem;
+  }
+  .socialIcon {
+    width: 32px !important;
+    height: 32px !important;
+    margin: 2px;
+  }
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.brand {
+  border: 1px solid #eee;
+  padding: 1rem;
+  margin: 8px 0;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #eee;
+  display: flex;
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+  }
+}
+
+.brandLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-right: 1rem;
+  min-width: 320px;
+  border-right: 1px solid #eee;
+  @include media-breakpoint-down(sm) {
+    border-right: 0;
+    border-bottom: 1px solid #eee;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    min-width: auto;
+    min-height: 150px;
+  }
+}
+
+.brandLink {
+  border-radius: 36px;
+}
+.brandLink:after {
+  content: " →";
+}
+
+.buenasLogo {
+  width: 268.2926829px;
+  height: 100px;
+}
+
+.fldwrkLogo {
+  width: 226.920731715px;
+  height: 45px;
+}
+
+.yellowLogo {
+  width: 182.1238938px;
+  height: 120px;
+  position: relative;
+  top: -8px;
+}
+
+.letsBeKindLogo {
+  width: 150px;
+  height: 150px;
+}
