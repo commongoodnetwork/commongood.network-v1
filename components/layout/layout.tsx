@@ -17,9 +17,7 @@ const Layout: React.FC<Props> = ({ className, children }) => {
       </Head>
 
       <header className="layout-header">
-        <div>
-          <Logo className="layout-logo" />
-        </div>
+        <Logo className="layout-logo" />
       </header>
 
       <main className="layout-main">{children}</main>
