@@ -7,9 +7,9 @@ import "./index.scss";
 const {
   FLDWRK: FLDWRKLogo,
   Yellow: YellowLogo,
-  Buenas: BuenasLogo,
-  LetsBeKind: LetsBeKindLogo,
-  Standard: StandardLogo
+  Buenas: BuenasLogo
+  // LetsBeKind: LetsBeKindLogo,
+  // Standard: StandardLogo
 } = brandLogos;
 
 const Home = () => (
@@ -147,7 +147,7 @@ const Home = () => (
         <div className="team-member">
           <img src="/images/brandon.jpg" className="rounded img-fluid" />
           <h3>Brandon Arbini</h3>
-          <p className="socialIcons">
+          <div className="socialIcons">
             <SocialIcon
               url="https://www.linkedin.com/in/brandonarbini/"
               className="socialIcon"
@@ -158,13 +158,13 @@ const Home = () => (
               className="socialIcon"
               bgColor="#343a40"
             />
-          </p>
+          </div>
           <p>Tech Entrepreneur, Y Combinator Alum, Software Engineer</p>
         </div>
         <div className="team-member">
           <img src="/images/jeff.jpg" className="rounded img-fluid" />
           <h3>Jeff Tanner</h3>
-          <p className="socialIcons">
+          <div className="socialIcons">
             <SocialIcon
               url="https://www.linkedin.com/in/jeffreyltanner/"
               className="socialIcon"
@@ -175,7 +175,7 @@ const Home = () => (
               className="socialIcon"
               bgColor="#343a40"
             />
-          </p>
+          </div>
           <p>
             Startup Coach, Organizational Leadership and Development Consultant,
             Pastor
@@ -184,7 +184,7 @@ const Home = () => (
         <div className="team-member">
           <img src="/images/joanna.jpg" className="rounded img-fluid" />
           <h3>Joanna Waterfall</h3>
-          <p className="socialIcons">
+          <div className="socialIcons">
             <SocialIcon
               url="https://www.linkedin.com/in/joannanoel/"
               className="socialIcon"
@@ -195,7 +195,7 @@ const Home = () => (
               className="socialIcon"
               bgColor="#343a40"
             />
-          </p>
+          </div>
           <p>Graphic Designer, Artist, Conference Speaker and Host</p>
         </div>
       </div>

@@ -16,5 +16,11 @@
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "react-social-icons": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.9",
+    "@types/node": "^12.12.8",
+    "@types/react": "^16.9.11",
+    "typescript": "^3.7.2"
   }
 }

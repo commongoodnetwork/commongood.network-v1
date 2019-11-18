@@ -4,7 +4,11 @@ import Logo from "../logo";
 import Head from "next/head";
 import "./layout.scss";
 
-const Layout = ({ className, children }) => {
+interface Props {
+  className?: string;
+}
+
+const Layout: React.FC<Props> = ({ className, children }) => {
   return (
     <div className={cx("layout", className)}>
       <Head>
@@ -13,7 +17,9 @@ const Layout = ({ className, children }) => {
       </Head>
 
       <header className="layout-header">
-        <Logo className="layout-logo" />
+        <div>
+          <Logo className="layout-logo" />
+        </div>
       </header>
 
       <main className="layout-main">{children}</main>
