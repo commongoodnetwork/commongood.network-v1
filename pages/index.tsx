@@ -85,7 +85,7 @@ const Home = () => (
         </div>
         <div>
           <p>
-            We have a dream that one day all cities will be full of
+            Formation has a dream that one day all cities will be full of
             organizations advancing the common good together. But there’s a
             problem: Our culture of individualism along with positional
             isolation robs top leaders, their organizations, and cities of their
