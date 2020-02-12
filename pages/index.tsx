@@ -7,7 +7,8 @@ import "./index.scss";
 const {
   FLDWRK: FLDWRKLogo,
   Yellow: YellowLogo,
-  Buenas: BuenasLogo
+  Buenas: BuenasLogo,
+  Formation: FormationLogo
   // LetsBeKind: LetsBeKindLogo,
   // Standard: StandardLogo
 } = brandLogos;
@@ -73,6 +74,27 @@ const Home = () => (
           </p>
           <a href="https://yellowco.co" className="btn btn-dark brandLink">
             yellowco.co
+          </a>
+        </div>
+      </div>
+      <div className="brand">
+        <div className="brandLogo">
+          <a href="https://formation.ceo">
+            <FormationLogo className="formationLogo" />
+          </a>
+        </div>
+        <div>
+          <p>
+            We have a dream that one day all cities will be full of
+            organizations advancing the common good together. But there’s a
+            problem: Our culture of individualism along with positional
+            isolation robs top leaders, their organizations, and cities of their
+            humanity and impact. We exist for top leaders to build organizations
+            into forces for good in their cities. By the end of 2020, our goal
+            is to have 3 certified guides leading 20 top leaders.
+          </p>
+          <a href="https://formation.ceo" className="btn btn-dark brandLink">
+            formation.ceo
           </a>
         </div>
       </div>
