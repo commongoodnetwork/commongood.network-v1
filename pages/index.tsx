@@ -129,7 +129,10 @@ const Home = () => (
           </a>
         </div>
         <div>
-          <p>Know how you feel. Act with Intention</p>
+          <p>
+            Know how you feel. Respond with intention. Develop self-awareness
+            and change your life.
+          </p>
           <a href="https://currentmood.is" className="btn btn-dark brandLink">
             currentmood.is
           </a>
